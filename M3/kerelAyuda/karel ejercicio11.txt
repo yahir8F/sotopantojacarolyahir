@@ -1,0 +1,25 @@
+class program {
+ void avanzaSiNoEsCero (n) {
+
+   if ( iszero(n) ) {
+
+      pickbeeper();
+
+   }
+
+   else {
+
+      iterate (n) {
+
+        putbeeper();
+
+      }
+
+   }
+
+}
+    program () {
+    avanzaSiNoEsCero(0);
+        turnoff();
+    }
+}

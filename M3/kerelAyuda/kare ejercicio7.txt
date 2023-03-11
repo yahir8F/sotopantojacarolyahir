@@ -1,0 +1,34 @@
+class program {
+void derecha(){
+iterate(3){
+turnleft();
+}
+} 
+void zumba(){
+if(nextToABeeper){
+pickbeeper();
+veacasa();
+}
+else
+{
+veacasa();
+}
+}
+void veacasa(){
+if(frontIsBlocked){
+turnoff();
+}
+move();
+derecha();
+move();
+turnleft();
+zumba();
+}
+
+    program () {
+   
+        veacasa();
+        
+        turnoff();
+    }
+}

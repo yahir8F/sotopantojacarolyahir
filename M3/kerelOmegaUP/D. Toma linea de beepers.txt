@@ -1,0 +1,34 @@
+class program {
+define turnright(){
+iterate(3){
+turnleft();
+}
+}
+define avanza(){
+iterate(6){
+move();
+}
+}
+define recojezumbador(){
+pickbeeper();
+}
+define e(){
+move();
+}
+    program () {
+    avanza();
+    turnright();
+    recojezumbador();
+    e();
+    recojezumbador();
+    e();
+    recojezumbador(); 
+    e();
+    recojezumbador();
+    e();
+    recojezumbador();
+    
+       
+        turnoff();
+    }
+}

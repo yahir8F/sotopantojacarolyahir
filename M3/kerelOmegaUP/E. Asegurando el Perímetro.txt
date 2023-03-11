@@ -1,0 +1,80 @@
+class program {
+define turnrigth()
+{
+turnleft();
+turnleft();
+turnleft();
+}
+define avanza3()
+{
+move();
+putbeeper();
+putbeeper();
+putbeeper();
+}
+define mover()
+{
+move();
+turnrigth();
+move();
+turnrigth();
+move();
+turnleft();
+}
+define avanza2()
+{
+putbeeper();
+putbeeper();
+move();
+}
+define mover1()
+{
+turnrigth();
+move();
+turnrigth();
+move();
+putbeeper();
+turnleft();
+}
+
+
+    program () {
+    avanza3();
+    avanza3();
+    avanza3();
+    avanza3();
+    avanza3();
+    turnrigth();
+    avanza3();
+    avanza3();
+    avanza3();
+    avanza3();
+    turnrigth();
+    avanza3();
+    avanza3();
+    avanza3();
+    avanza3();
+    turnrigth();
+    avanza3();
+    avanza3();
+    avanza3();
+     mover();
+     avanza2();
+     avanza2();
+    turnrigth();
+    avanza2();
+    avanza2();
+    turnrigth();
+    avanza2();
+    avanza2();
+    turnrigth();
+    avanza2();
+     avanza2();
+     mover1();
+
+    
+         
+        // TODO poner codigo aqui
+        turnoff();
+    }
+}

@@ -1,0 +1,30 @@
+class program {
+void turnright(){
+iterate(3){
+turnleft();
+}
+}
+void muevacoloque(i){
+iterate(succ(succ(i))){
+if(frontIsBlocked){
+turnleft();
+move();
+turnright();
+move();
+turnright();
+move();
+turnleft();
+}
+else{
+move();
+}
+}
+iterate(pred(pred(i)) ){
+putbeeper();
+}
+}
+    program () {
+        muevacoloque(5);
+        turnoff();
+    }
+}

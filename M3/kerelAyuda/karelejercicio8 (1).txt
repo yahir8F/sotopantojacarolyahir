@@ -1,0 +1,35 @@
+class program {
+void giraderecha(){
+turnleft();
+turnleft();
+turnleft();
+
+}
+void siguemuroderecha(){
+
+if(frontIsClear && rightIsBlocked) {
+move();
+}
+if(frontIsBlocked && rightIsBlocked){
+turnleft();
+}
+if(frontIsClear && rightIsClear){
+giraderecha();
+move();
+ }
+if(frontIsBlocked && rightIsClear){
+giraderecha();
+move();
+}
+}
+
+    program () {
+    while(notNextToABeeper){
+   siguemuroderecha();
+    }
+    
+        // TODO poner codigo aqui
+        
+        turnoff();
+    }
+}

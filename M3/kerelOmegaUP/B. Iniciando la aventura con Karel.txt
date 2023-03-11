@@ -1,0 +1,20 @@
+class program {
+define turnringth(){
+iterate(3){
+turnleft();
+}
+}
+define go(){
+move();
+turnringth();
+move();
+turnleft();
+}
+    program () {
+    iterate(3){
+    go();
+    }
+        // TODO poner codigo aqui
+        turnoff();
+    }
+   }

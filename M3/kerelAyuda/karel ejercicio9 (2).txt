@@ -1,0 +1,16 @@
+class program {
+void turn(n) {
+
+   iterate(n) {
+
+      move();
+
+   }
+
+}
+    program () {
+    turn(2);
+        // TODO poner codigo aqui
+        turnoff();
+    }
+}

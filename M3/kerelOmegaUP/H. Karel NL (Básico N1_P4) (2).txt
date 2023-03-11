@@ -1,0 +1,29 @@
+class program {
+void turnright(){
+iterate(3){
+turnleft();
+}
+}
+    program () {
+    turnleft();
+    move();
+    turnright();
+    move();
+    turnright();
+    move();
+    pickbeeper();
+    turnleft();
+    turnleft();
+    move();
+    turnleft();
+    move();
+    turnleft();
+    move();
+    turnright();
+    putbeeper();
+    
+    
+        
+        turnoff();
+    }
+}
